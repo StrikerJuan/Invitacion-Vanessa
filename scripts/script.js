@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById('body-cant').textContent = cantidad;
     document.getElementById('body-foot').textContent = footer;
 
-    const urlWa = `https://wa.me/5554301237?text=${body}%20confirmo%20mi%20asistencia%20 !!! %20`;
+    const urlWa = `https://wa.me/5554301237?text=${body}%20confirmo%20mi%20asistencia%20!!!%20`;
 
     document.getElementById("confirm-link").setAttribute('href', urlWa);
 });

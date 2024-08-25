@@ -35,7 +35,7 @@ section {
 }
 
 #info {
-    background-color: #684d91;
+    background-color: #008D8C;
     max-height: 120%;
     height: 120%;
 }
@@ -67,7 +67,7 @@ section {
 }
 
 #detalles {
-    background-color: #b1b2e2;
+    background-color: #D8E4A9;
 }
 
 #itinerario {
@@ -75,7 +75,7 @@ section {
 }
 
 #regalos {
-    background-color: #684d91;
+    background-color: #A4C9BB;
 }
 
 #hashtag {
@@ -87,7 +87,7 @@ section {
 }
 
 #galeria {
-    background-color: #dacae8;
+    background-color: #D8E4A9;
     max-height: 200%;
     height: 200%;
 }
@@ -106,7 +106,7 @@ section {
 }
 
 #copyright {
-    background-color: #dcddfc;
+    background-color: white;
     height: 60%;
     display: flex;
     align-items: center;
@@ -359,7 +359,7 @@ audio::-webkit-media-controls-toggle-closed-captions-button {
     font-weight: 300;
     font-style: normal;
     font-size: 20px;
-    color: #c0c0e2;
+    color: #66A355;
     text-align: center;
 }
 
@@ -367,7 +367,7 @@ audio::-webkit-media-controls-toggle-closed-captions-button {
     font-family: "Great Vibes", cursive;
     font-weight: 400;
     font-size: 120px;
-    color: #ba9ae9;
+    color: #267D39;
     text-align: center;
 }
 
@@ -387,7 +387,7 @@ audio::-webkit-media-controls-toggle-closed-captions-button {
     font-weight: 300;
     font-style: normal;
     font-size: 30px;
-    color: #c0c0e2;
+    color: #A4C9BB;
     text-align: center;
 }
 
@@ -396,7 +396,7 @@ audio::-webkit-media-controls-toggle-closed-captions-button {
     font-weight: 400;
     font-size: 50px;
     font-style: italic;
-    color: #ba9ae9;
+    color: #D8E4A9;
     text-align: center;
 }
 
@@ -429,7 +429,7 @@ audio::-webkit-media-controls-toggle-closed-captions-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #dacae8;
+    color: #D8E4A9;
 }
 
 .crono-title{
@@ -455,7 +455,7 @@ audio::-webkit-media-controls-toggle-closed-captions-button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid #dacae8;
+    border: 1px solid #D8E4A9;
     border-radius: 10px;
     padding: 10px;
     width: 80px;
@@ -488,7 +488,7 @@ audio::-webkit-media-controls-toggle-closed-captions-button {
     font-weight: 400;
     font-size: 50px;
     font-style: italic;
-    color: #684d91;
+    color: #267D39;
     text-align: center;
 }
 
@@ -519,7 +519,7 @@ audio::-webkit-media-controls-toggle-closed-captions-button {
     font-weight: 400;
     font-size: 35px;
     font-style: italic;
-    color: #622cb4
+    color: #267D39;
 }
 .detalles-title, .detalles-body{
     height: 25%;
@@ -532,7 +532,7 @@ audio::-webkit-media-controls-toggle-closed-captions-button {
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
-    color: #684d91;
+    color: #66A355;
 }
 .detalles-img img{
     max-width: 300px;
@@ -547,7 +547,7 @@ audio::-webkit-media-controls-toggle-closed-captions-button {
 .detalles-button div{
     padding: 5px;
     width: 150px;
-    background-color: rgb(169, 44, 201);
+    background-color: #4DAA57;
     color: white;
     border-radius: 10px;
     text-align: center;
@@ -558,7 +558,7 @@ audio::-webkit-media-controls-toggle-closed-captions-button {
 }
 .detalles-button div:hover{
     cursor: pointer;
-    background-color: rgb(139, 16, 161); /* Cambia el color de fondo */
+    background-color: #0D5D56; /* Cambia el color de fondo */
     color: white; /* Cambia el color del texto */
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); /* Agrega una sombra */
     font-size: 16px; /* Cambia el tamaño del texto */
@@ -697,7 +697,7 @@ audio::-webkit-media-controls-toggle-closed-captions-button {
     font-weight: 400;
     font-size: 50px;
     font-style: italic;
-    color: #4a1cc9;
+    color: #267D39;
     text-align: center;
 }
 
@@ -737,7 +737,7 @@ audio::-webkit-media-controls-toggle-closed-captions-button {
 }
 
 .regalos-header p{
-    color: white;
+    color: #008D8C;
 }
 
 .regalos-icono img{
@@ -745,16 +745,16 @@ audio::-webkit-media-controls-toggle-closed-captions-button {
 }
 
 .regalos-icono > .detalles-title {
-    color: #ba9ae9;
+    color: #267D39;
 }
 
 .regalos-icono > .detalles-body{
-    color: white;
+    color: #66A355;
 }
 
 .regalos-icono i{
     font-size: 65px;
-    color: #b1b2e2;
+    color: #008D8C;
 }
 
 .regalos-container > .vineta-sup, .regalos-container > .vineta-inf{
@@ -968,7 +968,7 @@ audio::-webkit-media-controls-toggle-closed-captions-button {
     font-weight: 400;
     font-size: 50px;
     font-style: italic;
-    color: #ba9ae9;
+    color: #66A355;
     text-align: center;
 }
 
@@ -976,7 +976,7 @@ audio::-webkit-media-controls-toggle-closed-captions-button {
     font-family: "Playfair Display", serif;
     font-weight: 400;
     font-size: 75px;
-    color: #ba9ae9;
+    color: #66A355;
     text-align: center;
 }
 
@@ -985,7 +985,7 @@ audio::-webkit-media-controls-toggle-closed-captions-button {
     font-weight: 400;
     font-style: normal;
     font-size: 140px;
-    color: #684d91;
+    color: #267D39;
 }
 
 .copyright-contacto a{
@@ -1141,7 +1141,7 @@ form label{
 }
 
 .body-num{
-    border: 1px solid black;
+    border: 1px solid #A4C9BB;
     padding: 0px 30px;
     border-radius: 5%;
 }
@@ -1152,7 +1152,7 @@ form label{
 }
 
 .pase-body p{
-    color: black;
+    color: #A4C9BB;
 }
 
 #header{
