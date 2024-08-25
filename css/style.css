@@ -291,6 +291,14 @@ audio::-webkit-media-controls-toggle-closed-captions-button {
     height: 100%;
 }
 
+.pase-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 65%;
+}
+
 .info-container, .detalles-container, .regalos-container {
     display: flex;
     flex-direction: column;
@@ -1107,7 +1115,6 @@ form label{
 }
 
 .pase-body{
-    background-color: #c394efd9;
     width: 100%;
 }
 
@@ -1121,7 +1128,7 @@ form label{
     font-weight: 400;
 }
 
-.body-body{
+.body-body, .body-num{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1133,13 +1140,19 @@ form label{
     column-gap: 10%;
 }
 
+.body-num{
+    border: 1px solid black;
+    padding: 0px 30px;
+    border-radius: 5%;
+}
+
 .pase-header p{
     color: #5421de;
     text-shadow: 2px 2px 4px rgba(240, 230, 230, 0.5);
 }
 
 .pase-body p{
-    color: white;
+    color: black;
 }
 
 #header{
@@ -1161,6 +1174,7 @@ form label{
     background-color: #c394efd9;
     z-index: 1;
 }
+
 
 @media screen and (max-width: 991px) {
     .carrusel {
@@ -1377,6 +1391,10 @@ form label{
 
     .whats img{
         width: 100px;
+    }
+
+    .pase-container {
+        justify-content: space-around;
     }
 
 }
