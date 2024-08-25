@@ -288,7 +288,7 @@ audio::-webkit-media-controls-toggle-closed-captions-button {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: 100%;
+    height: 90%;
 }
 
 .pase-container{
@@ -1231,7 +1231,7 @@ form label{
 
     .detalles-iconos, .regalos-iconos {
         flex-direction: column;
-        height: 530px;
+        height: 410px;
         align-items: center;
     }
 
@@ -1293,7 +1293,7 @@ form label{
     }
 
     .regalos-regalos{
-        height: 50%;
+        height: 70%;
     }
 
     .regalos-header{
