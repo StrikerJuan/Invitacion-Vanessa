@@ -21,7 +21,7 @@ section {
 }
 
 /* SECTION INDEPENDIENTES */
-#logo {
+#logo, #pase {
     background-color: white;
     justify-content: center;
     padding-bottom: 45px;
@@ -158,6 +158,17 @@ section {
     width: 590px;
 }
 
+.whats{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.whats img{
+    width: 150px;
+}
+
 .carrusel {
     /* background-image: url(../img/carrusel-1.jpg); */
     background-size: cover;
@@ -272,7 +283,7 @@ audio::-webkit-media-controls-toggle-closed-captions-button {
     font-size: 140px;
 }
 
-.logo-container{
+.logo-container, .pase-container{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1088,6 +1099,69 @@ form label{
     transform: scale(1.1); /* Escala el botón al 110% */
 }
 
+.pase-body, .pase-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pase-body{
+    background-color: #c394efd9;
+    width: 100%;
+}
+
+.body-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+}
+
+.body-body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Freestyle Script', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 80px;
+    column-gap: 10%;
+}
+
+.pase-header p{
+    color: #5421de;
+    text-shadow: 2px 2px 4px rgba(240, 230, 230, 0.5);
+}
+
+.pase-body p{
+    color: white;
+}
+
+#header{
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+}
+
+#header-1{
+    font-size: 140px;
+    font-family: 'Freestyle Script', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.lin-sup, .lin-inf{
+    width: 100%;
+    height: 30px;
+    background-color: #c394efd9;
+    z-index: 1;
+}
+
 @media screen and (max-width: 991px) {
     .carrusel {
         height: 100vh;
@@ -1283,6 +1357,26 @@ form label{
 
     #crono {
         background-image: url(../img/img_temp.webp);
+    }
+
+    .body-header{
+        font-size: 25px;
+    }
+
+    .body-body{
+        font-size: 50px;
+    }
+
+    #header{
+        font-size: 25px;
+    }
+
+    #header-1{
+        font-size: 70px;
+    }
+
+    .whats img{
+        width: 100px;
     }
 
 }
