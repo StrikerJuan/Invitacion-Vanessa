@@ -64,17 +64,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const urlParams = new URLSearchParams(window.location.search);
 
-    const header = urlParams.get('header');
-    const body = urlParams.get('body');
-    const cantidad = urlParams.get('cantidad');
-    const footer = urlParams.get('footer');
+    // const header = urlParams.get('header');
+    // const body = urlParams.get('body');
+    // const cantidad = urlParams.get('cantidad');
+    // const footer = urlParams.get('footer');
 
-    document.getElementById('body-head').textContent = header;
-    document.getElementById('body-body').textContent = `"${body}"`;
-    document.getElementById('body-cant').textContent = cantidad;
-    document.getElementById('body-foot').textContent = footer;
+    // document.getElementById('body-head').textContent = header;
+    // document.getElementById('body-body').textContent = `"${body}"`;
+    // document.getElementById('body-cant').textContent = cantidad;
+    // document.getElementById('body-foot').textContent = footer;
 
-    const urlWa = `https://wa.me/5554301237?text=${body}%20confirmo%20mi%20asistencia%20!!!%20`;
+    // const urlWa = `https://wa.me/5554301237?text=${body}%20confirmo%20mi%20asistencia%20!!!%20`;
 
-    document.getElementById("confirm-link").setAttribute('href', urlWa);
+    // document.getElementById("confirm-link").setAttribute('href', urlWa);
 });
