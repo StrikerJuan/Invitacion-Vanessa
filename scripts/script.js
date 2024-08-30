@@ -64,17 +64,26 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const urlParams = new URLSearchParams(window.location.search);
 
-    // const header = urlParams.get('header');
-    // const body = urlParams.get('body');
-    // const cantidad = urlParams.get('cantidad');
-    // const footer = urlParams.get('footer');
+    const header = urlParams.get('header');
+    const body = urlParams.get('body');
+    const cantidad = urlParams.get('cantidad');
+    const footer = urlParams.get('footer');
 
-    // document.getElementById('body-head').textContent = header;
-    // document.getElementById('body-body').textContent = `"${body}"`;
-    // document.getElementById('body-cant').textContent = cantidad;
-    // document.getElementById('body-foot').textContent = footer;
+    document.getElementById('body-head').textContent = header;
+    document.getElementById('body-body').textContent = `"${body}"`;
+    document.getElementById('body-cant').textContent = cantidad;
+    document.getElementById('body-foot').textContent = footer;
 
-    // const urlWa = `https://wa.me/5554301237?text=${body}%20confirmo%20mi%20asistencia%20!!!%20`;
+    const currentDateWa = new Date();
+    const disableDate = new Date('2024-10-05T23:59:59');
 
-    // document.getElementById("confirm-link").setAttribute('href', urlWa);
+    let urlWa;
+    if (currentDateWa < disableDate) {
+        urlWa = `https://wa.me/5554301237?text=${body}%20confirmo%20mi%20asistencia%20!!!%20`;
+    } else {
+        // Si la fecha actual es posterior a la fecha límite, desactivar el enlace
+        urlWa = "#"; // O simplemente no asignar un valor
+    }
+
+    document.getElementById("confirm-link").setAttribute('href', urlWa);
 });
