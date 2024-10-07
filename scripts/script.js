@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById('body-foot').textContent = footer;
 
     const currentDateWa = new Date();
-    const disableDate = new Date('2024-10-05T23:59:59');
+    const disableDate = new Date('2024-10-13T23:59:59');
 
     let urlWa;
     if (currentDateWa < disableDate) {
